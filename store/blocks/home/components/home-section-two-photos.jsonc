@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#home__section--two":{
+        "title": "seccion dos",
+        "children": [
+          "image#section__two--foto1",
+          "image#section__two--foto2",
+          "image#section__two--foto3"
+        ]
+      },
+      "image#section__two--foto1":{
+        "props": {
+          "src": "assets/img/categoria_card--1.png"
+        }
+      },
+      "image#section__two--foto2":{
+        "props": {
+          "src": "assets/img/categoria_card--2.png"
+        }
+      },
+      "image#section__two--foto3":{
+        "props": {
+          "src": "assets/img/categoria_card--3.png"
+        }
+      }
+}

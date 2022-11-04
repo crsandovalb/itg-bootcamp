@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#home__section--three":{
+        "title": "seccion tres",
+        "children": [
+          "image#section__three--foto1",
+          "image#section__three--foto2"
+        ]
+      },
+      "image#section__three--foto1":{
+        "props": {
+          "src": "assets/img/categoria2_card--1.png",
+          "maxHeight": "90%",
+          "maxWidth": "90%"
+        }
+      },
+      "image#section__three--foto2":{
+        "props": {
+          "src": "assets/img/categoria2_card--2.png",
+          "maxHeight": "90%",
+          "maxWidth": "90%"
+        }
+      }      
+}
