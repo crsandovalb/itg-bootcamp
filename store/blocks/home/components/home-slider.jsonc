@@ -19,11 +19,7 @@
           "image#home__slider--three",
           "image#home__slider--four",
           "image#home__slider--five",
-          "image#home__slider--six",
-          "image#home__slider--seven",
-          "image#home__slider--eight",
-          "image#home__slider--nine",
-          "image#home__slider--ten"
+          "image#home__slider--six"
         ]
       },
       "image#home__slider--one": {
@@ -54,26 +50,6 @@
       "image#home__slider--six": {
         "props": {
           "src": "assets/img/main-slide-6.png"
-        }
-      },
-      "image#home__slider--seven": {
-        "props": {
-          "src": "assets/img/main-slide-7.png"
-        }
-      },
-      "image#home__slider--eight": {
-        "props": {
-          "src": "assets/img/main-slide-8.png"
-        }
-      },
-      "image#home__slider--nine": {
-        "props": {
-          "src": "assets/img/main-slide-9.png"
-        }
-      },
-      "image#home__slider--ten": {
-        "props": {
-          "src": "assets/img/main-slide-10.png"
         }
       }
 }

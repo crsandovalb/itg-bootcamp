@@ -5,7 +5,10 @@
           "image#section__two--foto1",
           "image#section__two--foto2",
           "image#section__two--foto3"
-        ]
+        ],
+        "props": {
+          "marginBottom" : 4
+        }
       },
       "image#section__two--foto1":{
         "props": {
