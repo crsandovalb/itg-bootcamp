@@ -8,7 +8,8 @@
       "flex-layout.col#section__four--text":{
         "children": [
           "rich-text#section__four--title",
-          "rich-text#section__four--paragraph"
+          "rich-text#section__four--paragraph",
+          "rich-text#section__four--subtitle"
         ]
       },
       "rich-text#section__four--title":{
@@ -24,5 +25,13 @@
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
         }
-      }  
+      },
+      "rich-text#section__four--subtitle" : {
+        "props": {
+          "text": "¡NO TE LOS PUEDES PERDER!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }
+
 }
