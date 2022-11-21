@@ -11,7 +11,8 @@
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "fullWidth": true
+          "fullWidth": true,
+          "blockClass": "header__home--menu"
         },
         "children": [
           "vtex.menu@2.x:menu#websites"
@@ -35,6 +36,7 @@
       },
       "vtex.menu@2.x:menu#websites": {
         "props": {
+          "blockClass": "menu__desktop",
           "items": [
             {
               "id": "menu-item-shop",
@@ -126,7 +128,7 @@
               "highlight": false,
               "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/nosotros",
                 "noFollow": false,
                 "tagTitle": "nosotros",
                 "text": "NOSOTROS"

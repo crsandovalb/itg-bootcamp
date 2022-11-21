@@ -5,7 +5,8 @@
           "flex-layout.col#section__one--text"
         ],
         "props": {
-          "marginTop": 8
+          "marginTop": 8,
+          "blockClass": "rich-text__section--one"
         }
       },
       "flex-layout.col#section__one--text":{
