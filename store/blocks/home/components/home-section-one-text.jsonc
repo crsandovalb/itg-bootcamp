@@ -13,13 +13,17 @@
         "children": [
           "rich-text#section__one--title",
           "rich-text#section__one--paragraph"
-        ]
+        ],
+        "props": {
+          "blockClass": "home__section--texto--one"
+        }
       },
       "rich-text#section__one--title":{
         "props": {
           "text": "NUEVAS COLECCIONES",
           "textAlignment": "CENTER",
-          "textPosition": "CENTER"
+          "textPosition": "CENTER",
+          "font": "t-heading-4"
         }
       },
       "rich-text#section__one--paragraph":{

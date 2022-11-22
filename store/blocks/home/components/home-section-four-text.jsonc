@@ -30,7 +30,8 @@
         "props": {
           "text": "¡NO TE LOS PUEDES PERDER!",
           "textAlignment": "CENTER",
-          "textPosition": "CENTER"
+          "textPosition": "CENTER",
+          "font": "t-heading-4"
         }
       }
 
