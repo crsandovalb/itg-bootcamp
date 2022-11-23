@@ -2,22 +2,34 @@
     "flex-layout.row#home__section--three":{
         "title": "seccion tres",
         "children": [
-          "image#section__three--foto1",
-          "image#section__three--foto2"
+          "info-card#section__three--infocard--one",
+          "info-card#section__three--infocard--two"
         ]
       },
-      "image#section__three--foto1":{
+      "info-card#section__three--infocard--one":{
         "props": {
-          "src": "assets/img/categoria2_card--1.png",
-          "maxHeight": "90%",
-          "maxWidth": "90%"
+        "id": "info-card-section__three--inf",
+        "isFullModeStyle": true,
+        "textPosition": "center",
+        "imageUrl": "assets/img/categoria2_card--1.png",
+        "callToActionText": "VER MAS",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-section__three",
+        "textAlignment": "center",
+        "subhead" : "¿Un Café?"
         }
       },
-      "image#section__three--foto2":{
+      "info-card#section__three--infocard--two":{
         "props": {
-          "src": "assets/img/categoria2_card--2.png",
-          "maxHeight": "90%",
-          "maxWidth": "90%"
+          "id": "info-card-example",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/img/categoria2_card--2.png",
+          "callToActionText": "VER MAS",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-section__three",
+          "textAlignment": "center",
+          "subhead" : "Estar Acogedor"
         }
       }      
 }

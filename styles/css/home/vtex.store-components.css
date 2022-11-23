@@ -1,0 +1,20 @@
+.infoCardContainer--info-card-section__two {
+    height: 300px;
+    max-width: 90%;
+
+}
+.infoCardTextContainer--info-card-section__two {
+    padding-bottom: 0;
+    padding-top: 200px;
+}
+.infoCardContainer--info-card-section__three {
+    height: 500px;
+    max-width: 700px;
+}
+.infoCardTextContainer--info-card-section__three {
+    padding-bottom: 0;
+    padding-top: 300px;
+}
+.container--layout--results__home--shelf {
+    height: 5000px;
+}

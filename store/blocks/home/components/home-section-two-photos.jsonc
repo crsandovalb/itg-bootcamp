@@ -2,27 +2,48 @@
     "flex-layout.row#home__section--two":{
         "title": "seccion dos",
         "children": [
-          "image#section__two--foto1",
-          "image#section__two--foto2",
-          "image#section__two--foto3"
+          "info-card#section__two--foto1",
+          "info-card#section__two--foto2",
+          "info-card#section__two--foto3"
         ],
         "props": {
           "marginBottom" : 4
         }
       },
-      "image#section__two--foto1":{
+      "info-card#section__two--foto1":{
         "props": {
-          "src": "assets/img/categoria_card--1.png"
-        }
+          "id": "info-card-section__two--inf",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/img/categoria_card--1.png",
+          "callToActionText": "DISFRUTEMOS LAS TERRAZAS",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-section__two",
+          "textAlignment": "center"
+          }
       },
-      "image#section__two--foto2":{
+      "info-card#section__two--foto2":{
         "props": {
-          "src": "assets/img/categoria_card--2.png"
-        }
+          "id": "info-card-section__two--inf",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/img/categoria_card--2.png",
+          "callToActionText": "OLOR A NAVIDAD",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-section__two",
+          "textAlignment": "center"
+          }
       },
-      "image#section__two--foto3":{
+      "info-card#section__two--foto3":{
         "props": {
-          "src": "assets/img/categoria_card--3.png"
-        }
+          "id": "info-card-section__two--inf",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/img/categoria_card--3.png",
+          "callToActionText": "HACER UN ARREGLO FLORAL",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-section__two",
+          "textAlignment": "center"
+          }
       }
 }

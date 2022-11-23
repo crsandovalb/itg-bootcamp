@@ -153,7 +153,8 @@
           "title": "Logo",
           "href": "/",
           "url": "assets/img/logo__casaideas.png",
-          "width": "80"
+          "width": "80",
+          "blockClass": "header__logo--desktop"
         }
       },
       "search-bar#header__search": {
