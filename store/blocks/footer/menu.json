@@ -1,0 +1,249 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer__rich-text1",
+      "menu-item#rastrea",
+      "menu-item#cambios",
+      "menu-item#ayuda"
+    ]
+  },
+  "rich-text#footer__rich-text1": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE"
+    }
+  },
+  "menu-item#rastrea": {
+    "props": {
+      "id": "menu-item-rastrea",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "rastrea tu pedido",
+        "text": "Rastrea tu pedido"
+      }
+    }
+  },
+  "menu-item#cambios": {
+    "props": {
+      "id": "menu-item-cambios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#ayuda": {
+    "props": {
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Centro de ayuda",
+        "text": "Centro de ayuda"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer__rich-text1",
+      "menu-item#rastrea",
+      "menu-item#cambios",
+      "menu-item#ayuda"
+    ]
+  },
+  "menu-item#compras": {
+    "props": {
+      "id": "menu-item-compras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "mis compras",
+        "text": "Mis compras"
+      }
+    }
+  },
+
+  "menu-item#empresa": {
+    "props": {
+      "id": "menu-item-empresa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Venta empresa",
+        "text": "Venta empresa"
+      }
+    }
+  },
+
+  "menu-item#tyc": {
+    "props": {
+      "id": "menu-item-tyc",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Terminos y condiciones",
+        "text": "Terminos y condiciones"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer__richtext3",
+      "menu-item#backpacks"
+     ]
+  },
+
+  "rich-text#footer__richtext3": {
+    "props": {
+      "text": "RECURSOS HUMANOS"
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabaja con nosotros"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer__richtext3",
+      "menu-item#backpacks"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "image#footer__image--mobile",
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+  "image#footer__image--mobile": {
+    "props": {
+      "src": "assets/img/logo__footer.png",
+      "maxHeight": "60%",
+      "maxWidth" : "40%"
+    }
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Servicio al cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#rastrea",
+      "menu-item#cambios",
+      "menu-item#ayuda"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "text": "Mi cuenta"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#compras",
+      "menu-item#empresa",
+      "menu-item#tyc"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "text": "Recursos humanos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#backpacks"
+    ]
+  }  
+}

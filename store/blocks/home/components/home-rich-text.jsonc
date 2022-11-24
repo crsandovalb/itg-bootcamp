@@ -1,0 +1,34 @@
+{
+    "rich-text#home__text--one": {
+        "props": {
+            "text": "NUEVAS COLECCIONES",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+    "rich-text#home__text--two" : {
+        "props": {
+            "text": "Para que la belleza y funcionalidad sea parte de tu hogar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-8"
+        }
+    },
+    "rich-text#home__text--three": {
+        "props": {
+            "text": "Artículos de hogar ¡Compra Online! | Casaideas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-8"
+        }
+    },
+    "rich-text#home__text--four": {
+        "props": {
+            "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-8"
+        }
+    }
+}

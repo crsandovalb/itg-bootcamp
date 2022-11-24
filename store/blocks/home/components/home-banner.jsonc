@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#home__banner": {
+        "title": "home banner",
+        "children": [
+            "image#home__banner--foto1"
+        ]
+      },
+      "image#home__banner--foto1":{
+        "props": {
+          "src": "assets/img/banner__home.png",
+          "maxHeight": "90%",
+          "maxWidth": "90%"
+        }
+    }
+}

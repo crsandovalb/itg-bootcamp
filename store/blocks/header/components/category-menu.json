@@ -1,0 +1,822 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-nuevos",
+      "menu-item#category-apparel",
+      "menu-item#productos",
+      "menu-item#category-ninosybebe",
+      "menu-item#category-navidad",
+      "menu-item#category-temporada",
+      "menu-item#category-nosotros"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Espacio de la casa",
+        "text": "ESPACIO DE LA CASA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-cocina",
+      "menu-item#category-apparel-living",
+      "menu-item#category-apparel-comedor",
+      "menu-item#category-apparel-ninosbebe",
+      "menu-item#category-apparel-bano",
+      "menu-item#category-apparel-dormitorio",
+      "menu-item#category-apparel-bodega",
+      "menu-item#category-apparel-jardin",
+      "menu-item#category-apparel-comedor",
+      "menu-item#category-apparel-papeleria",
+      "menu-item#category-apparel-terraza",
+      "menu-item#category-apparel-mascotas",
+      "menu-item#category-apparel-lavanderia",
+      "menu-item#category-apparel-navidad",
+      "menu-item#category-apparel-personales"
+    ]
+  },
+  "menu-item#category-apparel-cocina": {
+    "props": {
+      "id": "menu-item-category-apparel-cocina",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    }
+  },
+  "menu-item#category-apparel-living": {
+    "props": {
+      "id": "menu-item-category-apparel-living",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "living",
+        "text": "Living y sala de estar"
+      }
+    }
+  },
+  "menu-item#category-apparel-comedor": {
+    "props": {
+      "id": "menu-item-category-apparel-comedor",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Comedor",
+        "text": "Comedor"
+      }
+    }
+  },
+  "menu-item#category-apparel-ninosbebe": {
+    "props": {
+      "id": "menu-item-category-apparel-ninosybebe",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Niños",
+        "text": "Niños y bebe"
+      }
+    }
+  },
+  "menu-item#category-apparel-bano" : {
+    "props": {
+      "id": "menu-item-category-apparel-ninosybebe",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Baño",
+        "text": "Baño"
+      }
+    }
+  },
+      "menu-item#category-apparel-dormitorio" : {
+        "props": {
+        "id": "menu-item-category-apparel-dormitorio",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Dormitorio",
+          "text": "Dormitorio"
+        }
+      }
+    },
+      "menu-item#category-apparel-bodega": {
+        "props": {
+          "id": "menu-item-category-apparel-bodega",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bodega y closet",
+            "text": "Bodega y closet"
+          }
+        }
+      },
+      "menu-item#category-apparel-jardin": {
+        "props": {
+          "id": "menu-item-category-apparel-jardin",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jardin",
+            "text": "Jardin"
+          }
+        }
+      },
+      "menu-item#category-apparel-papeleria": {    
+        "props": {
+        "id": "menu-item-category-apparel-papeleria",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Escritorio y papeleria",
+          "text": "Escritorio y papeleria"
+        }
+      }
+    },
+      "menu-item#category-apparel-terraza": {
+        "props": {
+          "id": "menu-item-category-apparel-terraza",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Terraza",
+            "text": "Terraza"
+          }
+        }
+      },
+      "menu-item#category-apparel-mascotas": {
+        "props": {
+          "id": "menu-item-category-apparel-mascotas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mascotas",
+            "text": "Mascotas"
+          }
+        }
+      },
+      "menu-item#category-apparel-lavanderia": {
+        "props": {
+          "id": "menu-item-category-apparel-lavanderia",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Lavanderia",
+            "text": "Lavanderia"
+          }
+        }
+      },
+      "menu-item#category-apparel-navidad": {
+        "props": {
+          "id": "menu-item-category-apparel-navidad",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Navidad",
+            "text": "Navidad"
+          }
+        }
+      },
+      "menu-item#category-apparel-personales": {
+        "props": {
+          "id": "menu-item-category-apparel-personales",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Accesorios personales",
+            "text": "Accesorios personales"
+          }
+        }
+      },
+
+  "menu-item#category-nuevos": {
+    "props": {
+      "id": "menu-item-category-nuevos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Nuevos",
+        "text": "NUEVOS"
+      }
+    }
+  },
+  "menu-item#category-ninosybebe": {
+    "props": {
+      "id": "menu-item-category-ninosybebe",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Niños y bebe",
+        "text": "NIÑOS Y BEBE"
+      }
+    }
+  },
+  "menu-item#category-navidad": {
+    "props": {
+      "id": "menu-item-category-ninosybebe",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Navidad",
+        "text": "NAVIDAD"
+      }
+    }
+  },
+  "menu-item#category-temporada": {
+    "props": {
+      "id": "menu-item-category-temporada",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Accesorios de temporada",
+        "text": "ACCESORIOS DE TEMPORADA"
+      }
+    }
+  },
+  "menu-item#category-nosotros": {
+    "props": {
+      "id": "menu-item-category-nosotros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Nosotros",
+        "text": "NOSOTROS"
+      }
+    }
+  },
+  "menu-item#productos": {
+    "props": {
+      "id": "menu-item-custom-productos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Productos",
+        "text": "PRODUCTOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "40%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#acctemporada",
+      "menu-item#deportivo",
+      "menu-item#accbaño",
+      "menu-item#accbelleza",
+      "menu-item#accpersonales",
+      "menu-item#alfombras",
+      "menu-item#almohadas",
+      "menu-item#aromatizantes",
+      "menu-item#artescritorio",
+      "menu-item#bebe",
+      "menu-item#cojines",
+      "menu-item#cortinas",
+      "menu-item#decoracion",
+      "menu-item#herramientas",
+      "menu-item#iluminacion",
+      "menu-item#jardin",
+      "menu-item#jugueteria",
+      "menu-item#lavanderia",
+      "menu-item#mascotas",
+      "menu-item#menajecocina",
+      "menu-item#menajemesa",
+      "menu-item#muebles",
+      "menu-item#navidad",
+      "menu-item#nino",
+      "menu-item#organizadores",
+      "menu-item#sillas",
+      "menu-item#terraza",
+      "menu-item#textiles",
+      "menu-item#urbano",
+      "menu-item#velas"
+    ]
+  },
+  "menu-item#acctemporada": {
+    "props": {
+      "id": "menu-item-acctemporada",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de temporada",
+        "text": "Accesorios de temporada"
+      }
+    }
+  },
+  "menu-item#deportivo": {
+    "props": {
+      "id": "menu-item-deportivo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios deportivos",
+        "text": "Accesorios deportivos"
+      }
+    }
+  },
+  "menu-item#accbaño": {
+    "props": {
+      "id": "menu-item-acctemporada",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de baño",
+        "text": "Accesorios de baño"
+      }
+    }
+  },
+  "menu-item#accbelleza": {
+    "props": {
+      "id": "menu-item-accbelleza",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios para Spa y belleza",
+        "text": "Accesorios para Spa y belleza"
+      }
+    }
+  },
+  "menu-item#accpersonales": {
+    "props": {
+      "id": "menu-item-accpersonales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios personales",
+        "text": "Accesorios personales"
+      }
+    }
+  },
+  "menu-item#alfombras": {
+    "props": {
+      "id": "menu-item-alfombras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Alfombras",
+        "text": "Alfombras"
+      }
+    }
+  },
+  "menu-item#almohadas" : {
+    "props": {
+      "id": "menu-item-almohadas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Almohadas y protectores de almohadas",
+        "text": "Almohadas y protectores de almohadas"
+      }
+    }
+  },
+  "menu-item#aromatizantes" : {
+    "props": {
+      "id": "menu-item-aromatizantes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aromatizantes de ambiente",
+        "text": "Aromatizantes de ambiente"
+      }
+    }
+  },
+  "menu-item#artescritorio" : {
+    "props": {
+      "id": "menu-item-artescritorio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Articulos para escritorio",
+        "text": "Articulos para escritorio"
+      }
+    }
+  },
+  "menu-item#bebe" : {
+    "props": {
+      "id": "menu-item-bebe",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "bebe",
+        "text": "Bebe"
+      }
+    }
+  },
+  "menu-item#cojines" : {
+    "props": {
+      "id": "menu-item-cojines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cojines y fundas",
+        "text": "Cojines y fundas"
+      }
+    }
+  },
+  "menu-item#cortinas" : {
+    "props": {
+      "id": "menu-item-cortinas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cortinas",
+        "text": "Cortinas"
+      }
+    }
+  },
+  "menu-item#decoracion" : {
+    "props": {
+      "id": "menu-item-decoracion",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "decoracion",
+        "text": "Decoracion"
+      }
+    }
+  },
+  "menu-item#herramientas" : {
+    "props": {
+      "id": "menu-item-herramientas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Herramientas y accesorios",
+        "text": "Herramientas y accesorios"
+      }
+    }
+  },
+  "menu-item#iluminacion": {
+    "props": {
+      "id": "menu-item-iluminacion",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "iluminacion",
+        "text": "Iluminacion"
+      }
+    }
+  },
+  "menu-item#jardin": {
+    "props": {
+      "id": "menu-item-jardin",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "jardin",
+        "text": "Jardin"
+      }
+    }
+  },
+  "menu-item#jugueteria": {
+    "props": {
+      "id": "menu-item-jugueteria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "jugueteria",
+        "text": "Jugueteria"
+      }
+    }
+  },
+  "menu-item#lavanderia": {
+    "props": {
+      "id": "menu-item-lavanderia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "lavanderia",
+        "text": "Lavanderia"
+      }
+    }
+  },
+  "menu-item#mascotas": {
+    "props": {
+      "id": "menu-item-mascotas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "mascotas",
+        "text": "Mascotas"
+      }
+    }
+  },
+  "menu-item#menajecocina": {
+    "props": {
+      "id": "menu-item-menajecocina",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Menaje de cocina",
+        "text": "Menaje de cocina"
+      }
+    }
+  },
+  "menu-item#menajemesa": {
+    "props": {
+      "id": "menu-item-menajemesa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "menaje de mesa",
+        "text": "Menaje de mesa"
+      }
+    }
+  },
+  "menu-item#muebles": {
+    "props": {
+      "id": "menu-item-muebles",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "muebles",
+        "text": "Muebles"
+      }
+    }
+  },
+  "menu-item#navidad": {
+    "props": {
+      "id": "menu-item-navidad",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "navidad",
+        "text": "Navidad"
+      }
+    }
+  },
+  "menu-item#nino": {
+    "props": {
+      "id": "menu-item-nino",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "niño",
+        "text": "Niño"
+      }
+    }
+  },
+  "menu-item#organizadores": {
+    "props": {
+      "id": "menu-item-organizadores",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "organizadores",
+        "text": "Organizadores"
+      }
+    }
+  },
+  "menu-item#sillas": {
+    "props": {
+      "id": "menu-item-sillas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "sillas",
+        "text": "Sillas"
+      }
+    }
+  },
+  "menu-item#terraza": {
+    "props": {
+      "id": "menu-item-terraza",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "terraza",
+        "text": "Terraza"
+      }
+    }
+  },
+  "menu-item#textiles": {
+    "props": {
+      "id": "menu-item-textiles",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "textiles de casa",
+        "text": "textiles de casa"
+      }
+    }
+  },
+  "menu-item#urbano": {
+    "props": {
+      "id": "menu-item-urbano",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "urbano",
+        "text": "Urbano"
+      }
+    }
+  },
+  "menu-item#velas": {
+    "props": {
+      "id": "menu-item-velas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "velas y portavelas",
+        "text": "Velas y portavelas"
+      }
+    }
+  }
+}
