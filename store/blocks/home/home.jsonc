@@ -1,11 +1,46 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "slider-layout#home__slider--children",
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two",
-      "flex-layout.row#home__section--three",
-      "flex-layout.row#home__section--four"
+      "rich-text#home__text--one",
+      "rich-text#home__text--two",
+      "flex-layout.row#home__card--one",
+      "flex-layout.row#home__card--two",
+      "rich-text#home__text--three",
+      "rich-text#home__text--four",
+      "rich-text#home__shelf-title",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__banner",
+      "newsletter"
     ]
+  },
+  "rich-text#home__shelf-title": {
+    "props": {
+      "text": "## ¡NO TE LOS PUEDES PERDER!",
+      "blockClass": "shelfTitle",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#home__shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
   }
 }

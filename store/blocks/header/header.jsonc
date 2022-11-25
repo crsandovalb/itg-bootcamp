@@ -1,23 +1,51 @@
 {
   "header": {
-    "blocks": [
-      "header-layout.desktop", 
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": [
-      "header-layout.desktop", 
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#desktop"
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop"
     ]
   },
-  "flex-layout.row#desktop": {
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
     "props": {
+      "fullWidth": true
+    }
+  },
+  
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -26,42 +54,44 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["logo#desktop"]
   },
-  "logo": {
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo__casaideas.png",
-      "width": "80"
+      "width": "120",
+      "height": "20"
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": ["sticky-layout#1-mobile"]
   },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
   },
-  "flex-layout.row#mobile": {
+  "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo",
+      "logo#mobile",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -74,6 +104,31 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-nuevos",
+      "menu-item#category-apparel",
+      "menu-item#productos",
+      "menu-item#category-ninosybebe",
+      "menu-item#category-navidad",
+      "menu-item#category-temporada",
+      "menu-item#category-nosotros"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo__casaideas.png",
+      "width": "120",
+      "height": "20"
+    }
   }
 }

@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#home__card--two": {
+        "title": "seccion tres",
+        "children": [
+            "info-card#section__card--cardinfo4",
+            "info-card#section__card--cardinfo5"
+        ]
+    },
+    "info-card#section__card--cardinfo4": {
+        "props": {
+            "id": "info-card-section__three--inf",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/categoria2_card--1.png",
+            "callToActionText": "VER MAS",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-section__three",
+            "textAlignment": "center",
+            "subhead" : "¿Un Café?"
+            }
+    },
+    "info-card#section__card--cardinfo5": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/categoria2_card--2.png",
+            "callToActionText": "VER MAS",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-section__three",
+            "textAlignment": "center",
+            "subhead" : "Estar Acogedor"
+          }
+    }
+}

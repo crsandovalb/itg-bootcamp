@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#home__card--one": {
+        "title": "card info 1",
+        "children": [
+            "info-card#section__card--cardinfo1",
+            "info-card#section__card--cardinfo2",
+            "info-card#section__card--cardinfo3"
+          ],
+          "props": {
+            "paddingBottom": 6
+          }
+    },
+    "info-card#section__card--cardinfo1" : {
+        "props": {
+            "id": "info-card-section__two--inf",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/categoria_card--1.png",
+            "callToActionText": "DISFRUTEMOS LAS TERRAZAS",
+            "callToActionUrl": "/",
+            "blockClass": "info-card-section__two",
+            "textAlignment": "center"
+            }
+    },
+    "info-card#section__card--cardinfo2": {
+        "props": {
+            "id": "info-card-section__two--inf",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/categoria_card--2.png",
+            "callToActionText": "OLOR A NAVIDAD",
+            "callToActionUrl": "/",
+            "blockClass": "info-card-section__two",
+            "textAlignment": "center"
+            }
+    },
+    "info-card#section__card--cardinfo3": {
+        "props": {
+            "id": "info-card-section__two--inf",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/img/categoria_card--3.png",
+            "callToActionText": "HACER UN ARREGLO FLORAL",
+            "callToActionUrl": "/",
+            "blockClass": "info-card-section__two",
+            "textAlignment": "center"
+            }
+    }
+}
