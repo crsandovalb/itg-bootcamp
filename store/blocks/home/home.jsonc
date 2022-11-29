@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "slider-layout#home__slider--children",
       "rich-text#home__text--one",
       "rich-text#home__text--two",
@@ -13,6 +14,13 @@
       "flex-layout.row#home__banner",
       "newsletter"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo" : "logo-de-la-clase.png",
+      "phone": "7777777",
+      "message": "OLA KTAL"
+    }
   },
   "rich-text#home__shelf-title": {
     "props": {
