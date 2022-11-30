@@ -3,6 +3,7 @@
     "blocks": [
       "whatsapp-button",
       "slider-layout#home__slider--children",
+      "list-context.bullet-group",
       "rich-text#home__text--one",
       "rich-text#home__text--two",
       "flex-layout.row#home__card--one",
@@ -20,6 +21,17 @@
       "logo" : "logo-de-la-clase.png",
       "phone": "7777777",
       "message": "OLA KTAL"
+    }
+  },
+  "list-context.bullet-group" : {
+    "props": {
+      "bullets": {
+        "image": "miimagen.png",
+        "titleBullet" : "Computadores",
+        "link": {
+          "url": "/"
+        }      
+      }
     }
   },
   "rich-text#home__shelf-title": {
