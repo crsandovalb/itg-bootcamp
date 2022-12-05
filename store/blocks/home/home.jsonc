@@ -3,7 +3,7 @@
     "blocks": [
       "whatsapp-button",
       "slider-layout#home__slider--children",
-      "flex-layout.row#bullets",
+      // "flex-layout.row#bullets",
       "rich-text#home__text--one",
       "rich-text#home__text--two",
       "flex-layout.row#home__card--one",
