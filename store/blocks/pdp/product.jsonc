@@ -114,17 +114,30 @@
       "availability-subscriber",
       "shipping-simulator",
       "share#default",
-      "add-to-cart-info"
+      "modal-trigger#add-to-cart-info"
     ]
   },
-
+  "modal-trigger#add-to-cart-info": {
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": ["modal-header#add-to-cart-info","add-to-cart-info"]
+  },
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
     },
     "children": ["vtex.store-components:product-name"]
   },
-
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
