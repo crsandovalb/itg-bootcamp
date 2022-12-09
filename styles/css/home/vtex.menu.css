@@ -1,0 +1,6 @@
+.styledLinkContent:hover{
+    text-decoration: solid underline black 2px;
+}
+.styledLinkContent {
+    font-size: 0.75rem;
+}
