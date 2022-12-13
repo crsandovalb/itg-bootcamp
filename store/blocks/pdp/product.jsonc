@@ -113,8 +113,8 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default",
-      "modal-trigger#add-to-cart-info"
+      "share#default"
+      // "modal-trigger#add-to-cart-info"
     ]
   },
   "modal-trigger#add-to-cart-info": {

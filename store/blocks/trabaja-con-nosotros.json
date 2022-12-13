@@ -1,0 +1,79 @@
+{
+  "store.custom#trabaja-con-nosotros": {
+    "blocks": [
+      "flex-layout.row#trabaja-con-nosotros__image",
+      "flex-layout.row#card__one--trabaja-con-nosotros",
+      "flex-layout.row#image__title",
+      "flex-layout.row#card__two--trabaja-con-nosotros"
+    ]
+  },
+  "flex-layout.row#trabaja-con-nosotros__image": {
+    "children": ["image#banner__trabaja-con-nosotros"]
+  },
+  "image#banner__trabaja-con-nosotros": {
+    "props": {
+      "src": "assets/img/banner_principal--trabajando.png"
+    }
+  },
+  "flex-layout.row#card__one--trabaja-con-nosotros": {
+    "children": [
+      "flex-layout.col#card__one--trabaja-con-nosotros--card-one",
+      "flex-layout.col#card__one--trabaja-con-nosotros--card__two",
+      "flex-layout.col#card__one--trabaja-con-nosotros--card__three"
+    ]
+  },
+  "flex-layout.col#card__one--trabaja-con-nosotros--card-one": {
+    "children": ["image#card__one--trabaja-con-nosotros"]
+  },
+  "image#card__one--trabaja-con-nosotros": {
+    "props": {
+      "src": "assets/img/conocenos__trabajando.png"
+    }
+  },
+  "flex-layout.col#card__one--trabaja-con-nosotros--card__two": {
+    "children": ["image#card__two--trabaja-con-nosotros"]
+  },
+  "image#card__two--trabaja-con-nosotros": {
+    "props": {
+      "src": "assets/img/equipo__trabajando.png"
+    }
+  },
+  "flex-layout.col#card__one--trabaja-con-nosotros--card__three": {
+    "children": ["image#card__three--trabaja-con-nosotros"]
+  },
+  "image#card__three--trabaja-con-nosotros": {
+    "props": {
+      "src": "assets/img/trabajo__trabajando.png"
+    }
+  },
+  "flex-layout.row#image__title": {
+    "children": ["image#title__trabajando"]
+  },
+  "image#title__trabajando": {
+    "props": {
+      "src": "assets/img/trabajos-title__trabajando.png"
+    }
+  },
+  "flex-layout.row#card__two--trabaja-con-nosotros": {
+    "children": [
+      "image#trabajando__infocard--one",
+      "image#trabajando__infocard--two",
+      "image#trabajando__infocard--three"
+    ]
+  },
+  "image#trabajando__infocard--one": {
+    "props": {
+      "src": "assets/img/trabajos--matriz__trabajando.png"
+    }
+  },
+  "image#trabajando__infocard--two": {
+    "props": {
+      "src": "assets/img/trabajos--diseno__trabajando.png"
+    }
+  },
+  "image#trabajando__infocard--three": {
+    "props": {
+      "src": "assets/img/trabajos--tienda__trabajando.png"
+    }
+  }
+}
