@@ -16,7 +16,7 @@
             "callToActionUrl": "/sale/d",
             "blockClass": "info-card-section__three",
             "textAlignment": "center",
-            "subhead" : "¿Un Café?"
+            "subhead" : "Colores y sillas"
             }
     },
     "info-card#section__card--cardinfo5": {
@@ -29,7 +29,7 @@
             "callToActionUrl": "/sale/d",
             "blockClass": "info-card-section__three",
             "textAlignment": "center",
-            "subhead" : "Estar Acogedor"
+            "subhead" : "Todo terraza"
           }
     }
 }

@@ -16,7 +16,7 @@
             "isFullModeStyle": true,
             "textPosition": "center",
             "imageUrl": "assets/img/categoria_card--1.png",
-            "callToActionText": "DISFRUTEMOS LAS TERRAZAS",
+            "callToActionText": "TIPS PARA REFRESCAR TU DORMITORIO",
             "callToActionUrl": "/",
             "blockClass": "info-card-section__two",
             "textAlignment": "center"
@@ -28,7 +28,7 @@
             "isFullModeStyle": true,
             "textPosition": "center",
             "imageUrl": "assets/img/categoria_card--2.png",
-            "callToActionText": "OLOR A NAVIDAD",
+            "callToActionText": "DESCANSO PARA TU PERRO",
             "callToActionUrl": "/",
             "blockClass": "info-card-section__two",
             "textAlignment": "center"
@@ -40,7 +40,7 @@
             "isFullModeStyle": true,
             "textPosition": "center",
             "imageUrl": "assets/img/categoria_card--3.png",
-            "callToActionText": "HACER UN ARREGLO FLORAL",
+            "callToActionText": "LOS INDISPENSABLES DEL PICNIC",
             "callToActionUrl": "/",
             "blockClass": "info-card-section__two",
             "textAlignment": "center"

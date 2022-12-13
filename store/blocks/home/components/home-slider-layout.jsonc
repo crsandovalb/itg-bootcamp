@@ -7,6 +7,7 @@
           "mobile": 1
         },
         "infinite" : true,
+        "showNavigationArrows":"never", 
         "blockClass": "home__slider",
         "autoplay": {
           "timeout": 3000,
