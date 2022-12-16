@@ -1,6 +1,7 @@
 {
     "rich-text#home__text--one": {
         "props": {
+            "title": "Rich text sobre info cards",
             "text": "NUEVAS COLECCIONES",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -9,6 +10,7 @@
     },
     "rich-text#home__text--two" : {
         "props": {
+            "title": "rich text sobre info cards 2",
             "text": "Para que la belleza y funcionalidad sea parte de tu hogar",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -17,6 +19,7 @@
     },
     "rich-text#home__text--three": {
         "props": {
+            "title": "rich text bajo info cards",
             "text": "Artículos de hogar ¡Compra Online! | Casaideas",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -25,6 +28,7 @@
     },
     "rich-text#home__text--four": {
         "props": {
+            "title": "rich text bajo info cards 2",
             "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",

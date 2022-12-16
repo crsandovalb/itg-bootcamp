@@ -63,12 +63,18 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#footer__rich-text1",
-      "menu-item#rastrea",
-      "menu-item#cambios",
-      "menu-item#ayuda"
+      "rich-text#footer__rich-text2",
+      "menu-item#compras",
+      "menu-item#empresa",
+      "menu-item#tyc"
     ]
   },
+  "rich-text#footer__rich-text2": {
+    "props": {
+      "text": "MI CUENTA"
+    }
+  },
+
   "menu-item#compras": {
     "props": {
       "id": "menu-item-compras",
@@ -144,17 +150,6 @@
       }
     }
   },
-
-  "vtex.menu@2.x:menu#footer-clothing": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "rich-text#footer__richtext3",
-      "menu-item#backpacks"
-    ]
-  },
-
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"

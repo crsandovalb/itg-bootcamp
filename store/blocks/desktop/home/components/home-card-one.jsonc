@@ -1,13 +1,14 @@
 {
     "flex-layout.row#home__card--one": {
-        "title": "card info 1",
+        "title": "Cards info home",
         "children": [
             "info-card#section__card--cardinfo1",
             "info-card#section__card--cardinfo2",
             "info-card#section__card--cardinfo3"
           ],
           "props": {
-            "paddingBottom": 6
+            "paddingBottom": 6,
+            "colGap": 4
           }
     },
     "info-card#section__card--cardinfo1" : {

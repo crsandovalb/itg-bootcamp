@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#home__newsletter--title": {
+        "children": ["rich-text#home__newsletter--title"]
+      },
+      "rich-text#home__newsletter--title": {
+        "props": {
+          "title": "rich text sobre newsletter",
+          "text": "¡Suscríbete a nuestro newsletter y recibe un 15% de descuento, en el mes de tu cumpleaños!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6"
+        }
+      },
+      "flex-layout.row#home__newsletter": {
+        "children": [
+          "flex-layout.row#home__newsletter--container"
+        ]
+      },
+      "flex-layout.row#home__newsletter--container" : {
+        "children": ["newsletter-form#home__newsletter--form"],
+        "props": {
+            "blockClass": "home__newsletter--container",
+            "title": "Newsletter"
+        }
+      },
+      "newsletter-form#home__newsletter--form" : {
+        "children": [
+          "newsletter-input-email",
+          "newsletter-input-name",
+          "newsletter-submit"
+        ]
+      }
+}

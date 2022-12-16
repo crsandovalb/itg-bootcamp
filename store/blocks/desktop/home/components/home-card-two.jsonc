@@ -1,10 +1,13 @@
 {
     "flex-layout.row#home__card--two": {
-        "title": "seccion tres",
+        "title": "Info card segunda parte",
         "children": [
             "info-card#section__card--cardinfo4",
             "info-card#section__card--cardinfo5"
-        ]
+        ],
+        "props": {
+            "colGap": 4
+        }
     },
     "info-card#section__card--cardinfo4": {
         "props": {

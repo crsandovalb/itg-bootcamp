@@ -53,7 +53,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "title": "Header desktop"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -78,7 +79,7 @@
   },
   "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "title": "Logo desktop",
       "href": "/",
       "url": "assets/img/logo__casaideas.png",
       "width": "200",
@@ -103,7 +104,8 @@
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "title": "Header mobile"
     }
   },
   "drawer": {
@@ -127,7 +129,7 @@
 
   "logo#mobile": {
     "props": {
-      "title": "Logo",
+      "title": "Logo mobile",
       "href": "/",
       "url": "assets/img/logo__casaideas.png",
       "width": "120",

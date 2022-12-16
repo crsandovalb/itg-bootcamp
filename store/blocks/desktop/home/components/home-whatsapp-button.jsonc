@@ -1,0 +1,9 @@
+{
+    "whatsapp-button": {
+        "props": {
+          "logo" : "logo-de-la-clase.png",
+          "phone": "7777777",
+          "message": "OLA KTAL"
+        }
+      }
+}

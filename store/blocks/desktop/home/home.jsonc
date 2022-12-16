@@ -1,0 +1,20 @@
+{
+  "store.home": {
+    "blocks": [
+      "whatsapp-button",
+      "slider-layout#home__slider--children",
+      // "flex-layout.row#bullets",
+      "rich-text#home__text--one",
+      "rich-text#home__text--two",
+      "flex-layout.row#home__card--one",
+      "flex-layout.row#home__card--two",
+      "rich-text#home__text--three",
+      "rich-text#home__text--four",
+      "rich-text#home__shelf-title",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__banner",
+      "flex-layout.row#home__newsletter--title",
+      "flex-layout.row#home__newsletter"
+    ]
+  }
+}
